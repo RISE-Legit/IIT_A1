@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Jesse Catchpole | Profile</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>Jesse Catchpole</strong> (s3814655)</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="generic.html">Tests</a>
+						<a href="profile.html">Profile</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Algorhythmic</h2>
+						<p>Project Idea.</p>
+					</header>
+
+					<!-- Intro -->
+						<div class="row">
+							<section class="6u 12u$(medium)">
+								<h2>What is Algorhythmic?</h2>
+								<p><strong>Algorhythmic</strong> is a smartphone/tablet application that takes one or more samples as an input, processes them in varying ways and produces an original song composition as the output, based on the samples submitted. These samples could be one shot drum samples, synth sounds or even recordings made through the device's microphone. The song is created using a generative AI algorithm that uses machine learning to find viable and pleasing compositions. There would be a number of preferences that would be selected by the user within the app and submitted alongisde the sample or samples and processed accordingly by the AI. This would allow the app to produce songs of varying genres, BPMs, 'feelings' and would also allow the user to request contextual styles. For example, 'Popular' would return a song in a style that has been requested regularly by users. Or 'Random' would randomise the input preferences and produce a song with a 'random' style.</p>
+							</section>
+							<section class="6u 12u$(medium)">
+								<h3>Motivation</h3>
+								<p>This project is interesting in that it uses machine learning to manufacture the rules and procedures for producing a listenable song, then using those procedures to take any input and process them into original content. This would expand the efficacy of cheap, royalty free music and lower the barrier to entry for small studios or independent film creators, such as Youtube and Twitch, etc.</p>
+								<p>Aside from that, it seems like an interesting step forward for AI machine learning. With technology like this evolving, perhaps in the future we could have whole clubs dancing to the AI DJ who is generating these dance tracks on the fly and mixing them seemlessly like a current human DJ would. There may even be recourse for this to be transferred to generative video production.</p>
+							</section>
+						</div>
+
+					<hr class="major" />
+
+					<!-- Content -->
+						<h2 id="content">Description</h2>
+						<h1>The User Experience</h2>
+						<p>The app would present with a simple design that would indicate for you to select one or more samples to be submitted. You select your samples, the page scrolls to the left and some settings appear on the screen. Sliders, check boxes and the like. You have the option to choose what style of song you want returned. Energetic, slow, mounrful, sporadic, experimental. You can choose a speed or input a BPM. Did you want the sample/s used as is and the tracks melodies and progressions set around that? Or did you want the sample to be pitch-corrected to a chord progression you can also set? You can set how much of the track you want to feature the 'DNA' of that sample on a slider from 10%-90%. This feature would allow the sample to be sliced, enveloped, stretched, pitched, etc to bend it to the requirements of the track. There's no reason why a handclap you recorded with your phone's mic can't be an 808 Trap bass, when processd correctly. Alternatively, you can just tap the 'Surprise me' button and these preferences will be randomised.</p>
+						<p>Then you submit. With the tap of a button, the sample/s and the preferences you have set are uploaded to the server and the magic begins. The algorithm applies what it has learned in thousands of iterations of this process with the adjustments alluding to the user preferences. By this point the process has been streamlined so as not to take too long and shortly a finished composition is downloaded to the app.</p>
+						<p>The user plays the song. Satisfied with the result, the user submits a rating (used for further training the algorithm) and the song now enters their in-app music library for royalty free use in their media productions.</p>
+						<h1>The Algorithm</h2>
+						<p>The machine learning component of this service would operate on Azure or AWS cloud services, as these services are widely available, well supported and are relatively cheaper than owning your own supercomputer or data centre. The servers that process user data (such as profiles and saved songs) may also be cloud-based, however this is less necessary as the data gathered is minimal.
+						<div class="row">
+							<div class="12u 12u$(small)">
+								<h3>Tools and technology</h3>
+								<p>As this app would funciton on both Android and iOs devices (both phones and tablets) for maximum availability, these programming languages would need to be leveraged here- Java for Android and Swift for iOS.</p>
+								<p>There would be no specialised hardware required as cloud services exist that can handle such use cases. Amazon SageMaker (Amazon Web Services, Inc., 2019) is an example of a service that would allow the training and deployment of such a machine learning system.
+								As for the machine learning componenet itself, there are a number of popular prgramming languages that would be suited to the task. Namely, Python C++ and Java. User data could be handled server side by JavaScript or PHP.</p>
+							</div>
+							<div class="row">
+								<div class="12u 12u$(small)">
+									<h3>Skills required</h3>
+									<p>To make this project a reality, developers would be required for writing that application code for both the Android and iOS devices. As these are widely adopted platforms, there will be no issue wtith this. There would be a simple user interface, only a few external connections over the internet needed. There won't be any complex equations being performed in the app as part of the generative process. This allows to the developers to focus on making the app secure. This would lower the amount of development time required to complete the project.</p>
+									<p>The algorithm would need to be coded and deployed to the cloud service of choice. This would require technically-skilled data scientists and/or machine learning experts in the chosen language (eg. Python) to initially create the custom code and then maintain and adjust it. Outside of the algorithm itself, an in-depth knowledge of the cloud systems (AWS or Azure) would be necessary to maintain the service stability and keep it within operational parameters.</p>
+								</div>
+								<div class="row">
+									<div class="12u 12u$(small)">
+										<h3>Outcome</h3>
+										<p>To be considered successful, this app would have to provide professional-sounding songs cheaply and easily. Long wait times would be a fail state, as well as tracks that are glitchy or have no flow in composition. If a song produced by this sytem can be played to an audience and it is not immediately apparent that it was auto-generated, then this platform is a success.</p>
+										<p>There is no real original problem driving the neccessity for this service, excepting that the time it takes to have a track produced is generally quite long.</p>
+										<p>This development, if successful, may further AI research into generative audio and recognition processes. With some tweaking, this algorithm may be able to be applied to image processing and video processing, to prodcuce auto-generated content for use in media.</p>
+									</div>
+							<!-- Break -->
+						</div>
+						<h1>References.</h1><br>
+						<p>Amazon Web Services, Inc. (2019). Machine Learning on AWS.<br>[online] Available at: <a href=https://aws.amazon.com/machine-learning/>https://aws.amazon.com/machine-learning/</a> [Accessed 15 Sep. 2019].</p>
+					</div>
+				</div>
+			</section>
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+
+						<h3>Get in touch</h3>
+						<h3>Email: <a href=mailto:s3814655@student.rmit.edu.au>s3814655@student.rmit.edu.au</a></h3>
+
+						<!-- <form action="#" method="post">
+
+							<div class="field half first">
+								<label for="name">Name</label>
+								<input name="name" id="name" type="text" placeholder="Name">
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input name="email" id="email" type="email" placeholder="Email">
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+							</div>
+							<ul class="actions">
+								<li><input value="Send Message" class="button alt" type="submit"></li>
+							</ul>
+						</form>
+
+						<div class="copyright">
+							&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+						</div> -->
+
+					</div>
+				</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
